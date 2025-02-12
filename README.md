@@ -1,44 +1,110 @@
-<br>
-<p align="center"><img src=title.png width="450px"></p>
-Free and open source sandbox game with peer-to-peer multiplayer, world editor, PvP and a physics-based building system. It is made with Godot 4 using GDScript.<br><br>
+# **Lawyers World | Navigate the Legal Realm with Expertise ⚖️**
 
-Download the latest beta release:<br>
-[![Tinybox](https://img.shields.io/badge/Get%20latest-beta%20version-teal?style=plastic)](https://github.com/caelan-douglas/tinybox/releases/latest)<br>
-### License
+## **🧾Table of Contents**
 
-Tinybox is free software licensed under the GNU Affero General Public License v3 (GNU AGPLv3), located in [`COPYING.txt`](COPYING.txt).
+- [📖 Introduction](#Introduction)
+- [🚀How to Access Lawyers World](#How-to-access)
+- [🎮Gameplay & Features](#features)
+- [⚙️Technical Details](#techdetails)
+- [🗂️Repository Structure](#repo-structure)
+- [🤝Community Contributions](#contributions)
+- [👨🏻‍💻Contact & Support](#contact-support)
 
-Some assets (textures, audio, music, etc.) are under different licensing. These licenses include, but are not necessarily limited to:
+## **📖Introduction**<a name="Introduction"></a>
 
-- GNU AGPLv3
-- Creative Commons CC0
-- Creative Commons CC-BY-SA 4.0
+Welcome to Magic Worlds, where everything is possible, and the only limit is your imagination and dreams. Forever free, family-friendly, and open source.
 
-Files with different licenses are denoted in the various `licenses.txt` files located in the respective data folders, which point to the file's source and their license.
+_Lawyers World_ is an immersive realm within Magic Worlds that allows players to delve into the intricacies of the legal system. Engage in virtual courtrooms, analyze case files, and experience the challenges and triumphs of the legal profession.
 
-The Godot Engine is under its own license, the details of which are noted at https://godotengine.org/license/.
 
-## About
+## **🚀How to Access Lawyers World**<a name="How-to-access"></a>
 
-### Screenshots
-<img src=.export_exclude/screenshot_1.png width="600px">
-<img src=.export_exclude/screenshot_3.png width="600px">
-<img src=.export_exclude/screenshot_2.png width="600px">
-<img src=.export_exclude/screenshot_4.png width="600px">
+1. **Launch Magic Worlds** and enter your spaceship.
+2. **Talk to the Vice Captain** by walking up ahead and pressing `E`.
+3. **Head straight up to the bridge** and enter by pressing `E`.
+4. **Once in the bridge, climb up the platform** to access the travel console.
+5. **Access the console** by entering the passcode [456]`.
+6. **Select Lawyers World** in the World Hub.
+7. **Start Exploring**: Dive into courtrooms, meet virtual legal experts
+.
 
-### Game vision
-Tinybox *('tiny + sandbox')* is a sandbox game focused on creativity, experimentation, and destroying your friends with rockets. Bricks allow players to create destructible platforms, bridges, houses, vehicles, etc. The world editor allows players to delve a bit deeper and create their own worlds with custom events and features. As of now, the main goal of feature updates in the project is to expand on this with more included worlds; new features, events, and objects in the editor; and new item types.
+## **🎮Gameplay & Features**<a name="features"></a>
 
-In order to keep PvP aligned with the physics-based sandbox nature of the game, weapons generally interact with the world in some way (ex. bombs and rockets for ranged weapons, rather than hitscan weapons.)
+- ⚖️ **Courtroom Simulations** – Participate in realistic virtual trials and hearings.
+- 📂 **Case Analysis** – Review and interpret case files to build your arguments.
+- 🧑‍⚖️ **Meet Legal Legends** – Interact with virtual representations of renowned legal figures.
+- 🏛️ **Legal Research** – Access a vast library of legal resources within the game.
+- 🎁 **Exclusive Rewards** – Unlock special legal-themed items and earn tokens.
 
-## Setting up the project
-[![Godot](https://img.shields.io/badge/Project%20Godot%20version:-4.2.2-purple?logo=godotengine&logoColor=white&style=plastic)](https://godotengine.org/)<br>
-Like any other Godot project, working on a copy of Tinybox is mostly just a matter of opening it in the Godot editor. The project's current Godot version is linked above.<br>
-An additional step you will have to take is linking a Blender 3.0+ executeable in your Godot Editor settings. **I recommend you do this before loading the project to avoid import errors.**<br>
-`Editor > Editor Settings > FileSystem > Import > Blender 3 Path`<br>
-If done correctly, you should be able to see the .blend files in the /data/models directory within the Editor filesystem. On macOS, you will have to link the actual executeable within the Blender.app Contents, not Blender.app binary itself. For example, on my macOS install the path I have set is:
-`/Applications/Blender.app/Contents/MacOS`
 
-If you're working on this (or any multiplayer project) and running Windows, I recommend using the app [`clumsy`](https://github.com/jagt/clumsy), which is very helpful for simulating bad network conditions (latency, dropped packets, throttled connection, etc.) when testing.
+## **⚙️Technical Details**<a name="techdetails"></a>
 
-Tinybox enforces statically typed GDScript - see the static typing guide [`here.`](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html)
+### **🚨System Requirements**
+
+#### Minimum:
+
+- **OS**: Windows 10 (64-bit) / Linux / macOS 10.15+
+- **Processor**: Intel Core i5-4460 / AMD FX-6300
+- **Memory**: 8 GB RAM
+- **Graphics**: NVIDIA GTX 760 / AMD Radeon R7 260X
+- **DirectX**: Version 11
+- **Storage**: 50 GB available space
+
+
+#### Recommended:
+
+- **OS**: Windows 11 / Latest macOS / Linux (Latest)
+- **Processor**: Intel Core i7-8700 / AMD Ryzen 5 3600
+- **Memory**: 16 GB RAM
+- **Graphics**: NVIDIA RTX 2060 / AMD RX 5700 XT
+- **DirectX**: Version 12
+- **Storage**: 50 GB SSD
+
+  
+ ## **🖥️Tech Stack**
+
+_Magic Worlds_ is built using the following technologies:
+- **Game Engine**: Godot Game Engine
+- **Programming Languages**: GDScript, Python, JavaScript
+- **Database**: MySQL, MongoDB
+- **Cloud Platforms**: AWS, Google Cloud
+- **Operating Systems**: Windows, Linux, macOS, iOS, mobile
+
+### **🛠️Installation & Setup**
+
+#### **Download from Itch.io**
+
+1. Visit [Magic Worlds on Itch.io.](https://magicworlds.itch.io/magic-world).
+2. Download the latest version of _Magic Worlds_.
+3. Extract the downloaded file (if applicable).
+4. Run the game executable to start playing.
+
+## **🗂️Repository Structure**<a name="repo-structure"></a>
+
+```plaintext
+LawyersWorld3D_Desktop/
+│-- assets/        # Game assets (models, textures, audio)
+│-- src/           # Main game source code
+│-- docs/          # Documentation files
+│-- tests/         # Unit and integration tests
+│-- README.md      # This file
+│-- LICENSE        # License details
+```
+
+## **🤝Community Contributions**<a name="contributions"></a>
+
+_Lawyers World_ is part of the open-source _Magic Worlds_ project. You can contribute by:
+
+- Forking the repository and submitting pull requests.
+- Reporting bugs and suggesting improvements.
+- Joining discussions and beta testing.
+
+## **👨🏻‍💻Contact & Support**<a name="contact-support"></a>
+
+📧 **Email**: mflynn1999@gmail.com  
+📘 **Facebook**: [Magic Worlds](https://www.facebook.com/MagikWorlds)  
+🐦 **Twitter**: [@magicworlds3](https://x.com/magicworlds3)  
+📺 **YouTube**: [Magic Worlds TV](https://youtube.com/@magicworldstv?si=FHtkbuWJh5aYKmQy)  
+👽 **Reddit**: [Play2World](https://www.reddit.com/user/Play2World/)  
+✈️ **Telegram**: [Play2World](https://t.me/Play2World)  
+🔗 **LinkedIn**: [Magic Worlds](https://www.linkedin.com/company/magic-worlds/)
